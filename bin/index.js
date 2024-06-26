@@ -14,7 +14,6 @@ const usage = chalk.blue(
 
 const options = yargs
   .usage(usage)
-  .default("d", "")
   .options({
     t: {
       alias: "title",
