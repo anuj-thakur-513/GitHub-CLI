@@ -1,0 +1,29 @@
+{
+  "name": "github-cli",
+  "version": "1.0.0",
+  "description": "github CLI commands to manage basic things from command-line itself",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuj-thakur-513/GitHub-CLI.git"
+  },
+  "author": "anuj thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuj-thakur-513/GitHub-CLI/issues"
+  },
+  "bin": {
+    "gh-create-repo": "./bin/index.js"
+  },
+  "homepage": "https://github.com/anuj-thakur-513/GitHub-CLI#readme",
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "yargs": "^17.7.2"
+  }
+}
