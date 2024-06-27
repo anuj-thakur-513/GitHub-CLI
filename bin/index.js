@@ -2,7 +2,8 @@
 const yargs = require("yargs");
 const chalk = require("chalk");
 const boxen = require("boxen");
-require("dotenv").config();
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 
 const usage = chalk.blue(
   "\nUsage: gh-create-repo -t <title_of_repo> -d <description_of_repo> -v <'public' or 'private'>\n" +
